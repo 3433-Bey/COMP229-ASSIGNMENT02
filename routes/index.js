@@ -13,13 +13,13 @@ router.get('/', function(req, res, next) {
   router.get('/aboutme', function(req, res, next) {res.render('content/aboutme',{ title: 'About Me' });
   });
 /* GET Project page. */
-  router.get('/project', function(req, res, next) {res.render('index',{ title: 'Project' });
+  router.get('/project', function(req, res, next) {res.render('content/project',{ title: 'Project' });
   });
 /* GET Services page. */
-  router.get('/services', function(req, res, next) {res.render('index',{ title: 'Services' });
+  router.get('/services', function(req, res, next) {res.render('content/services',{ title: 'Services' });
   });
 /* GET Contact me page. */
-  router.get('/contactme', function(req, res, next) {res.render('index',{ title: 'Contact Me' });
+  router.get('/contactme', function(req, res, next) {res.render('content/contactme',{ title: 'Contact Me' });
   });
   
 module.exports = router; 
