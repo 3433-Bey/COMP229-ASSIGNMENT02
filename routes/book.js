@@ -7,7 +7,7 @@ let Book = require('../models/book');
 
 //Get Route for the BOOK list page - Read Operation
 router.get('/',(req,res, next)=> {
-    Book.find((err, BookList)=>{
+    Book.find((err, bookList)=>{
         if(err)
         {
             return console.error(err);
@@ -16,7 +16,7 @@ router.get('/',(req,res, next)=> {
         {
             //console.log(BookList);
             
-            res.render('book.ejs', {title: 'Book List', BookList: bookList})
+            res.render('book', {title: 'Book List', BookList: bookList})
         }
     });
 });

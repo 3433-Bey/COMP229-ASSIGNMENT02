@@ -7,7 +7,7 @@
   <main class="container">
   <div class="row">
       <div class="col-md-offset-3 col-md-8">
-          <h1><% title %></h1>
+          <h1><%= title %></h1>
           <br>
           <table class="table table-bordered table-stripped table-hover">
               <!-- Header Row-->
@@ -19,7 +19,7 @@
                     <th class="text-center">Price</th>
                 </tr>
                 <!--Repeatable Temple Row -->
-                <% for(let count = 0; count <BookList.length; count++){%>
+                <% for(let count = 0; count <BookList.length; count++) {%>
                     <tr>
                         <td class="text-center"><%= BookList[count].name %></td>
                         <td class="text-center"><%= BookList[count].author %></td>
@@ -27,7 +27,7 @@
                         <td class="text-center"><%= BookList[count].description %></td>
                         <td class="text-center"><%= BookList[count].price %></td>
                     </tr>
-                }
+                <% } %>
             </table>
       </div>
   </div> 
