@@ -28,7 +28,7 @@
     "passport-local-mongoose": "^6.0.1",
     "popper.js": "^1.16.1"
   },
-  "description": "\"# trial-assgnment01\"",
+  "description": "comp229-assignemnt02",
   "main": "server.js",
   "devDependencies": {
     "@types/connect-flash": "0.0.35",
@@ -41,12 +41,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/3433-Bey/trial-assgnment01.git"
+    "url": "git+https://github.com/3433-Bey/COMP229-ASSIGNMENT02.git"
   },
   "author": "Beylull Teklay",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/3433-Bey/trial-assgnment01/issues"
+    "url": "https://github.com/3433-Bey/COMP229-ASSIGNMENT02/issues"
   },
-  "homepage": "https://github.com/3433-Bey/trial-assgnment01#readme"
+  "homepage": "https://github.com/3433-Bey/COMP229-ASSIGNMENT02#readme"
 }
