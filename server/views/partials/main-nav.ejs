@@ -2,7 +2,7 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <a class="navbar-brand" href="/">Personal Porifolio Site</a>
-    <img src="./Assets/images/logo.png" alt="logo" width="70" height="60">
+    <img src="../Assets/images/logo.png" alt="logo" width="70" height="60">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,6 +40,14 @@
          <li class="nav-item ">
          <%} %>
             <a class="nav-link" href="/services"> </i><i class="fas fa-lg fa-cogs"></i> Services </a>
+        </li>
+
+         <% if(title == "Books"){ %>
+        <li class="nav-item active">
+        <%} else {%>
+         <li class="nav-item ">
+         <%} %>
+            <a class="nav-link" href="/book-list"> </i><i class="fas fa-book"></i> Books </a>
         </li>
 
         <% if(title == "Contact Me"){ %>
